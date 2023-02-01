@@ -2,15 +2,20 @@
 
 Follow the steps below to setup the project:
 > npm install
+
 > npm install nodemon -g
 
 
 DB Mingration
 Prerequisite:
 > npm install mysql -g
+
 > npm install mysql --save
+
 > npm install db-migrate -g
+
 > npm install db-migrate-mysql --save
+
 
 - Create Database on your localhost (mine is Mysql) and name it `node_backend_db`
 
