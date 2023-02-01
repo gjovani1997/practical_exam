@@ -30,7 +30,9 @@ use the credentails below to use the login API (url wil be povided)
 username: testusername99
 password: Default123
 
-- Database Seeding - Run the command below
+- Database Seeding - 
+
+- Run the command below
 > node db_seed.js
 
 
