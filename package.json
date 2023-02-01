@@ -9,14 +9,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^7.6.0",
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
     "crypto": "^1.0.1",
+    "db-migrate": "^0.11.13",
+    "db-migrate-mysql": "^2.2.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
     "mysql2": "^3.1.0",
     "nodemon": "^2.0.20",
     "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "faker": "^6.6.6"
   }
 }

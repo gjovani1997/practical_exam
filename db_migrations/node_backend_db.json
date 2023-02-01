@@ -1,0 +1,10 @@
+{
+    "dev":{
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "node_backend_db",
+        "driver": "mysql",
+        "multipleStatements":true
+    },"sql-file":true
+}
