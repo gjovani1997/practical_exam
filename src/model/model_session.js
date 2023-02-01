@@ -5,13 +5,6 @@ const encryptor_obj = new Encryptor();
 // const Response = require("../helper/response_helper");
 // const response_obj = new Response();
 
-Connection.connect(err => {
-    if (err) {
-      console.error("Error connecting to database: " + err.stack);
-      return;
-    }
-    console.log("Connected to database as id " + Connection.threadId);
-});
 
 module.exports =  class Session {
 
